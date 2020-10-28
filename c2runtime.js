@@ -22390,11 +22390,15 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Touch.prototype.cnds.IsTouchingObject,
 	cr.system_object.prototype.acts.AddVar,
 	cr.system_object.prototype.exps.dt,
-	cr.plugins_.Browser.prototype.acts.GoToURL,
 	cr.system_object.prototype.cnds.Compare,
 	cr.plugins_.Text.prototype.exps.Text,
 	cr.system_object.prototype.cnds.OnLayoutStart,
 	cr.plugins_.Audio.prototype.acts.Play,
 	cr.plugins_.Touch.prototype.cnds.OnTouchObject,
-	cr.plugins_.Audio.prototype.acts.StopAll
+	cr.plugins_.Audio.prototype.acts.StopAll,
+	cr.plugins_.Touch.prototype.cnds.IsInTouch,
+	cr.plugins_.Touch.prototype.cnds.CompareTouchSpeed,
+	cr.plugins_.Touch.prototype.exps.AngleAt,
+	cr.system_object.prototype.cnds.IsBetweenAngles,
+	cr.plugins_.Browser.prototype.acts.GoToURL
 ];};
